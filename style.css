@@ -1,0 +1,31 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.para {
+  width: 600px;
+  height: 400px;
+  background: #ddd;
+  position: relative;
+  margin: 300px 0 0 200px;
+}
+
+.para .layer {
+  width: 130%;
+  height: 130%;
+  position: absolute;
+  border: 1px solid #f00;
+  pointer-events: none;
+  transition: all 1s ease-out;
+}
+
+.para .debug {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 12px;
+  background: #000;
+  color: #fff;
+}
